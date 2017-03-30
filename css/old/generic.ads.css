@@ -1,0 +1,46 @@
+/*S:PARALLAX*/
+#parallax_container {
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+#parallax_absolute {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip: rect(auto,auto,auto,auto);
+}
+#parallax_fixed {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    -moz-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    margin: 0 auto;
+}
+#parallax_banner {
+    /*width: 320px;
+    height: 430px;*/
+    width: 100%;
+    height: 100%;
+    border: none;
+    position: absolute;
+    left: 50%;
+    top: 46px;
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+#parallax_banner img {
+    width: 100%;
+    height: auto;
+}
+/*E:PARALLAX*/
